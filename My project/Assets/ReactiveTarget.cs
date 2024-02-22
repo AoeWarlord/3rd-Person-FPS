@@ -6,6 +6,12 @@ public class ReactiveTarget : MonoBehaviour
 {
     public void ReactToHit()
     {
+        //Get reference to wandering AI script
+        WanderingAI behavior = GetComponent<WanderingAI>();
+        if (behavior != null )
+        {
+            behavior.SetALive(false);
+        }
         StartCoroutine(Die());
     }
 

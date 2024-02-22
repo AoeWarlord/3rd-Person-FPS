@@ -19,19 +19,22 @@ public class FPSInput : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float deltaX = Input.GetAxis("Horizontal") * speed;
-        float deltaZ = Input.GetAxis("Vertical") * speed;
+        /*if (allowedToMove) Chapter 3 part 2 end
+        { **/
+            float deltaX = Input.GetAxis("Horizontal") * speed;
+            float deltaZ = Input.GetAxis("Vertical") * speed;
 
-        Vector3 movement = new Vector3(deltaX, 0, deltaZ);
+            Vector3 movement = new Vector3(deltaX, 0, deltaZ);
 
-        movement = Vector3.ClampMagnitude(movement, speed);
+            movement = Vector3.ClampMagnitude(movement, speed);
 
-        movement.y = gravity;
+            movement.y = gravity;
 
-        movement *= Time.deltaTime;
+            movement *= Time.deltaTime;
 
-        movement = transform.TransformDirection(movement);
+            movement = transform.TransformDirection(movement);
 
-        charController.Move(movement);
+            charController.Move(movement);
+        // }Chapter 3 part 2 end
     }
 }
