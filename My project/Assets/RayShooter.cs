@@ -6,11 +6,17 @@ public class RayShooter : MonoBehaviour
 {
     // Private variable that has a reference to the camera
     private Camera cam;
+
+    private bool allowedToShoot = true;
+
+    private PlayerCharacter stillAlive;
     // Start is called before the first frame update
     void Start()
     {
         //Use GetComponent to get a reference to the Camera
         cam = GetComponent<Camera>();
+
+        stillAlive = GetComponentInParent<PlayerCharacter>();
 
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
@@ -19,29 +25,33 @@ public class RayShooter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Run the following code if the player clicks the left mouse button
-        if (Input.GetMouseButtonDown(0))
+        allowedToShoot = stillAlive.notDead;
+        if (allowedToShoot)
         {
-            Vector3 point = new Vector3(cam.pixelWidth / 2, cam.pixelHeight / 2, 0);
-
-            Ray ray = cam.ScreenPointToRay(point);
-
-            RaycastHit hit;
-
-            if (Physics.Raycast(ray, out hit))
+            //Run the following code if the player clicks the left mouse button
+            if (Input.GetMouseButtonDown(0))
             {
-                GameObject hitObject = hit.transform.gameObject;
-                ReactiveTarget target = hitObject.GetComponent<ReactiveTarget>();
-                if (target != null)
-                {
-                    //Debug.Log("Target hit");
-                    target.ReactToHit();
-                }
-                else
-                {
-                    StartCoroutine(SphereIndicator(hit.point));
-                }
+                Vector3 point = new Vector3(cam.pixelWidth / 2, cam.pixelHeight / 2, 0);
 
+                Ray ray = cam.ScreenPointToRay(point);
+
+                RaycastHit hit;
+
+                if (Physics.Raycast(ray, out hit))
+                {
+                    GameObject hitObject = hit.transform.gameObject;
+                    ReactiveTarget target = hitObject.GetComponent<ReactiveTarget>();
+                    if (target != null)
+                    {
+                        //Debug.Log("Target hit");
+                        target.ReactToHit();
+                    }
+                    else
+                    {
+                        StartCoroutine(SphereIndicator(hit.point));
+                    }
+
+                }
             }
         }
     }

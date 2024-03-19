@@ -7,10 +7,16 @@ public class FPSInput : MonoBehaviour
 {
     public float speed = 3.0f;
     public float gravity = -9.8f;
+    public float jumpHeight = 1f;
+    bool isGrounded;
+    //bool isMoving;
+    public Transform groundCheck;
+    public float groundDistance = 0.4f;
+    public LayerMask groundMask;
     private bool allowedToMove = true;
     private CharacterController charController;
     private PlayerCharacter stillAlive;
-
+    //private Vector3 lastPosition = new Vector3(0f, 0f, 0f);
 
 
 
@@ -34,13 +40,33 @@ public class FPSInput : MonoBehaviour
 
             Vector3 movement = new Vector3(deltaX, 0, deltaZ);
 
-            movement = Vector3.ClampMagnitude(movement, speed);
+            isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+            if (isGrounded && movement.y < 0)
+            {
+                movement.y = -9.8f;
+            }
 
-            movement.y = gravity;
+            movement = Vector3.ClampMagnitude(movement, speed);
 
             movement *= Time.deltaTime;
 
             movement = transform.TransformDirection(movement);
+
+            if(Input.GetButtonDown("Jump") && isGrounded)
+            {
+                movement.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+            }
+
+            movement.y += gravity * Time.deltaTime;
+
+            /*if(lastPosition != gameObject.transform.position && isGrounded == true)
+            {
+                isMoving = true;
+            }
+            else
+            {
+                isMoving = false;
+            }*/
 
             charController.Move(movement);
         }
