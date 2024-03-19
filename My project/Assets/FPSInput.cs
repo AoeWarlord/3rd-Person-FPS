@@ -7,20 +7,28 @@ public class FPSInput : MonoBehaviour
 {
     public float speed = 3.0f;
     public float gravity = -9.8f;
-
+    private bool allowedToMove = true;
     private CharacterController charController;
+    private PlayerCharacter stillAlive;
+
+
+
 
     // Start is called before the first frame update
     void Start()
     {
         charController = GetComponent<CharacterController>();
+        stillAlive = GetComponent<PlayerCharacter>();
     }
+
+    
 
     // Update is called once per frame
     void Update()
     {
-        /*if (allowedToMove) Chapter 3 part 2 end
-        { **/
+        allowedToMove = stillAlive.notDead;
+        if (allowedToMove)
+        {
             float deltaX = Input.GetAxis("Horizontal") * speed;
             float deltaZ = Input.GetAxis("Vertical") * speed;
 
@@ -35,6 +43,6 @@ public class FPSInput : MonoBehaviour
             movement = transform.TransformDirection(movement);
 
             charController.Move(movement);
-        // }Chapter 3 part 2 end
+        }
     }
 }

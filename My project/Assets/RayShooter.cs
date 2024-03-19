@@ -53,7 +53,7 @@ public class RayShooter : MonoBehaviour
         yield return new WaitForSeconds(1);
         Destroy(sphere);
     }
-
+    // edit here potentially make smaller
     private void OnGUI()
     {
         //font size

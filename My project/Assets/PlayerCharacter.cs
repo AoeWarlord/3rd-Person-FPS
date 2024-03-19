@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,7 +6,7 @@ using UnityEngine;
 public class PlayerCharacter : MonoBehaviour
 {
     private int health;
-
+    public bool notDead = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +17,14 @@ public class PlayerCharacter : MonoBehaviour
     {
         health -= damage;
         Debug.Log($"Health: {health}");
+        if (health > 0)
+        {
+            notDead = true;
+        }
+        else 
+        { 
+            notDead = false; 
+        }
     }
 
     // Update is called once per frame
@@ -23,4 +32,7 @@ public class PlayerCharacter : MonoBehaviour
     {
         
     }
+
+
 }
+
