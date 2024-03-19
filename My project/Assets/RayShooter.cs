@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class RayShooter : MonoBehaviour
 {
+    public GameObject laserPrefab;
+    public Transform laserSpawn;
+    public float laserVelocity = 150;
+
     // Private variable that has a reference to the camera
     private Camera cam;
 
@@ -31,6 +35,9 @@ public class RayShooter : MonoBehaviour
             //Run the following code if the player clicks the left mouse button
             if (Input.GetMouseButtonDown(0))
             {
+                GameObject laser = Instantiate(laserPrefab, laserSpawn.position, Quaternion.identity);
+                laser.GetComponent<Rigidbody>().AddForce(laserSpawn.forward.normalized * laserVelocity, ForceMode.Impulse);
+
                 Vector3 point = new Vector3(cam.pixelWidth / 2, cam.pixelHeight / 2, 0);
 
                 Ray ray = cam.ScreenPointToRay(point);
@@ -43,33 +50,22 @@ public class RayShooter : MonoBehaviour
                     ReactiveTarget target = hitObject.GetComponent<ReactiveTarget>();
                     if (target != null)
                     {
-                        //Debug.Log("Target hit");
                         target.ReactToHit();
-                    }
-                    else
-                    {
-                        StartCoroutine(SphereIndicator(hit.point));
                     }
 
                 }
-            }
+
+                }
         }
     }
 
-    private IEnumerator SphereIndicator(Vector3 pos)
-    {
-        GameObject sphere = GameObject.CreatePrimitive(PrimitiveType.Sphere);
-        sphere.transform.position = pos;
-        yield return new WaitForSeconds(1);
-        Destroy(sphere);
-    }
     // edit here potentially make smaller
     private void OnGUI()
     {
         //font size
         int size = 12;
 
-        //Coords at which teh crosshairs are drawn
+        //Coords at which the crosshairs are drawn
         float posX = cam.pixelWidth / 2 - size / 4;
         float posY = cam.pixelHeight / 2 - size / 2;
 
@@ -77,3 +73,4 @@ public class RayShooter : MonoBehaviour
         GUI.Label(new Rect(posX, posY, size, size), "*");
     }
 }
+

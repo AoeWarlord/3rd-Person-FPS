@@ -60,6 +60,7 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.19f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Laser.cs" />
     <Compile Include="Assets\Spin.cs" />
     <Compile Include="Assets\MouseLook.cs" />
     <Compile Include="Assets\ReactiveTarget.cs" />
@@ -69,6 +70,9 @@
     <Compile Include="Assets\PlayerCharacter.cs" />
     <Compile Include="Assets\WanderingAI.cs" />
     <Compile Include="Assets\FPSInput.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\SciFi_Space_Soldier\Resources\Shaders\SpaceStation_PBR_Basic.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

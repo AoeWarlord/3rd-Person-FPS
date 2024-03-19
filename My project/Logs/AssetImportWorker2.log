@@ -1,0 +1,665 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.19f1 (244b723c30a6) revision 2378610'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 31864 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/david/My project
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+51244
+Successfully changed project path to: C:/Users/david/My project
+C:/Users/david/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18960] Host "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 695443893 [EditorId] 695443893 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9VQ84OB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [18960] Host "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 695443893 [EditorId] 695443893 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9VQ84OB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 5.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.19f1 (244b723c30a6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/david/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 (ID=0x2786)
+    Vendor:   NVIDIA
+    VRAM:     12012 MB
+    Driver:   31.0.15.5161
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56568
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.006095 seconds.
+- Loaded All Assemblies, in  0.248 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.160 seconds
+Domain Reload Profiling: 406ms
+	BeginReloadAssembly (70ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (108ms)
+		LoadAssemblies (68ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (106ms)
+			TypeCache.Refresh (105ms)
+				TypeCache.ScanAssembly (94ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (160ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (127ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (88ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.375 seconds
+Refreshing native plugins compatible for Editor in 2.24 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.344 seconds
+Domain Reload Profiling: 717ms
+	BeginReloadAssembly (90ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (228ms)
+		LoadAssemblies (175ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (104ms)
+			TypeCache.Refresh (93ms)
+				TypeCache.ScanAssembly (83ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (344ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (255ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (36ms)
+			ProcessInitializeOnLoadAttributes (193ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3092 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.3 KB). Loaded Objects now: 3554.
+Memory consumption went from 123.0 MB to 122.9 MB.
+Total: 2.367800 ms (FindLiveObjects: 0.323100 ms CreateObjectMapping: 0.079800 ms MarkObjects: 1.898000 ms  DeleteObjects: 0.066500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 11969.556426 seconds.
+  path: Assets/RayShooter.cs
+  artifactKey: Guid(d33f96f263afb3045baab499a12f015f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RayShooter.cs using Guid(d33f96f263afb3045baab499a12f015f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '577f35df41c9df8a12a2af9ba8627fde') in 0.060196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PlayerCharacter.cs
+  artifactKey: Guid(ae3a255f7f7ff98459f45d5bb09da89b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayerCharacter.cs using Guid(ae3a255f7f7ff98459f45d5bb09da89b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '164156dc535dfec30fe11baff46e3905') in 0.003685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Spin.cs
+  artifactKey: Guid(bb4628499d26b8345ba325db3a1baa9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spin.cs using Guid(bb4628499d26b8345ba325db3a1baa9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a7a859dea0983a6a81afc7caa3714864') in 0.002126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000006 seconds.
+  path: Assets/BorgStyle.jpeg
+  artifactKey: Guid(69dd70201a883b5409c929bf351a6382) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BorgStyle.jpeg using Guid(69dd70201a883b5409c929bf351a6382) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5618389cb72f0caa4c136f4bfe758643') in 0.030270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 430.448391 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Textures/T_SpaceSoldier_Head_E.tga
+  artifactKey: Guid(cf28180a9a456e340967b4ee17178919) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Textures/T_SpaceSoldier_Head_E.tga using Guid(cf28180a9a456e340967b4ee17178919) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1b5f70307bd489be830a113402606e90') in 0.016248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Textures/T_SpaceSoldier_Legs_M.tga
+  artifactKey: Guid(b01d9c0f37db4744b9f9c8b02439ffaf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Textures/T_SpaceSoldier_Legs_M.tga using Guid(b01d9c0f37db4744b9f9c8b02439ffaf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2d2b6286dbca3b3538ecd54e03b16d5c') in 0.013890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Textures/T_SpaceSoldier_Head_D.tga
+  artifactKey: Guid(2f5a147c8e798ed45ac7ac5e13006a16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Textures/T_SpaceSoldier_Head_D.tga using Guid(2f5a147c8e798ed45ac7ac5e13006a16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9349771b844fd98fee4a4e83529b0195') in 0.012934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Floor.mat
+  artifactKey: Guid(aafa21b2fb64511499b1e39e26a2c97d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Floor.mat using Guid(aafa21b2fb64511499b1e39e26a2c97d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '59940f4509807c04691fe0d57a776792') in 0.014409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Materials/M_Soldier_B_Legs.mat
+  artifactKey: Guid(a699ee56e43a36a4a93d521b97cc7cd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Materials/M_Soldier_B_Legs.mat using Guid(a699ee56e43a36a4a93d521b97cc7cd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '91bdb96ed024cd837381eae08b5eebc6') in 0.037672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Meshes
+  artifactKey: Guid(4800cbe46f7a2d04fbacb7126541b993) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Meshes using Guid(4800cbe46f7a2d04fbacb7126541b993) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5cd804c3f9b7189f8c2f8177c8907fce') in 0.002921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SciFi_Space_Soldier/Prefabs
+  artifactKey: Guid(be00fc11fe5b139438186911d7d3d47f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Prefabs using Guid(be00fc11fe5b139438186911d7d3d47f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ffbf406e21caad16454fe3e105e853b4') in 0.001754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Meshes/Anims_RootMotion/Soldier@Rifle_Aiming_Walk_F_RM.FBX
+  artifactKey: Guid(6dc89f2601958ab4897c68dea7836a24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Meshes/Anims_RootMotion/Soldier@Rifle_Aiming_Walk_F_RM.FBX using Guid(6dc89f2601958ab4897c68dea7836a24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e7d01a4487013b046501f7172a55b9fe') in 0.030325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 88
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Meshes/Anims_Inplace/Soldier@Rifle_Aiming_Walk_B.FBX
+  artifactKey: Guid(3d2258b5c81862f438661352844c4590) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Meshes/Anims_Inplace/Soldier@Rifle_Aiming_Walk_B.FBX using Guid(3d2258b5c81862f438661352844c4590) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eac634e050792f3e2f841b7b0fa0c002') in 0.019056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 88
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/SciFi_Space_Soldier
+  artifactKey: Guid(ea802c9e713bc674d9245ee91ddec448) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier using Guid(ea802c9e713bc674d9245ee91ddec448) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8799cf3a901534166197ad53a4cc2368') in 0.001963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Materials/M_Soldier_C_Head.mat
+  artifactKey: Guid(7edb55f16f8f0ca45b1babcbd2960aa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Materials/M_Soldier_C_Head.mat using Guid(7edb55f16f8f0ca45b1babcbd2960aa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f7a63a37851dbbf55d3fa562a02c0dbc') in 0.009315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000006 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Meshes/Anims_Inplace/Soldier@Rifle_Aiming_Idle.FBX
+  artifactKey: Guid(9a1cfe114435d7a448210c950821c20f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Meshes/Anims_Inplace/Soldier@Rifle_Aiming_Idle.FBX using Guid(9a1cfe114435d7a448210c950821c20f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a7add3090c69f9e964aeaaf636359d7e') in 0.028901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 102
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Weapons/Rifle/HUD/HUD_Icon_Rifle.png
+  artifactKey: Guid(986fb6568545e4b4e8d2825e26616dff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Weapons/Rifle/HUD/HUD_Icon_Rifle.png using Guid(986fb6568545e4b4e8d2825e26616dff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd99293652f8738cef286af92f2f0737a') in 0.010615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Textures/T_SpaceSoldier_Head_CM.tga
+  artifactKey: Guid(b498b07523c8c804c9294b2fded8de2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Textures/T_SpaceSoldier_Head_CM.tga using Guid(b498b07523c8c804c9294b2fded8de2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '94183d53997b8fd658de064109ec926c') in 0.011755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Meshes/Anims_Partial/Soldier@Rifle_Reload.FBX
+  artifactKey: Guid(9a252a22f2418b543ac5ceb6a5023d7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Meshes/Anims_Partial/Soldier@Rifle_Reload.FBX using Guid(9a252a22f2418b543ac5ceb6a5023d7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '34dac8d7cab3aa34f57e2aa90cf7fe2a') in 0.024769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 128
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Controller&Masks
+  artifactKey: Guid(ae1d1f17abcb65d49b4ec348cd4373b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Controller&Masks using Guid(ae1d1f17abcb65d49b4ec348cd4373b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '93999bae99a3e036ed385cdd257075fe') in 0.001912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Meshes/Anims_RootMotion/Soldier@Rifle_Aiming_Walk_B_RM.FBX
+  artifactKey: Guid(982a0ecc9c78b274facf6f28e340a337) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Meshes/Anims_RootMotion/Soldier@Rifle_Aiming_Walk_B_RM.FBX using Guid(982a0ecc9c78b274facf6f28e340a337) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '33613c5972a032392e02b71daf797acf') in 0.018621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 88
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Textures/T_SpaceSoldier_Torso_M.tga
+  artifactKey: Guid(ee12b18da37c0904f971a0bf2f042ae5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Textures/T_SpaceSoldier_Torso_M.tga using Guid(ee12b18da37c0904f971a0bf2f042ae5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd242a8d776ec4c25b6e6f3f77c19865e') in 0.012485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Textures/T_SpaceSoldier_Head_M.tga
+  artifactKey: Guid(5a18c989b69887946ac9a044b78c0202) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Textures/T_SpaceSoldier_Head_M.tga using Guid(5a18c989b69887946ac9a044b78c0202) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a54b7ec6e82362fcbe73c7e5e41a6eb8') in 0.012627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Weapons/Rifle/Textures/T_Weapon_Rifle_1_D.png
+  artifactKey: Guid(2b6e53757cdaea64c8cb8f8d88381ab5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Weapons/Rifle/Textures/T_Weapon_Rifle_1_D.png using Guid(2b6e53757cdaea64c8cb8f8d88381ab5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '32ef89b707bbd6aeb27993c08a93567a') in 0.011677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Meshes/Anims_Partial
+  artifactKey: Guid(129733ae6d91eda4a962801d811517be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Meshes/Anims_Partial using Guid(129733ae6d91eda4a962801d811517be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '74ea072bb5535091795f8d8e417bf833') in 0.001896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Weapons/Rifle
+  artifactKey: Guid(2c0bb6809b17bfd448f0da3d69bcdc04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Weapons/Rifle using Guid(2c0bb6809b17bfd448f0da3d69bcdc04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f2f839ebd496c959e97efc22eaeb81de') in 0.001958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Meshes/Anims_Inplace/Soldier@Rifle_Idle.FBX
+  artifactKey: Guid(46b28d6574c1af441a7d58ce17a3c78c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Meshes/Anims_Inplace/Soldier@Rifle_Idle.FBX using Guid(46b28d6574c1af441a7d58ce17a3c78c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ba13bc7bd464c85a1f0ed1151070c3f') in 0.019201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 90
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Materials
+  artifactKey: Guid(18dd953d854fb6f4dabd52dc6f9d4e60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Materials using Guid(18dd953d854fb6f4dabd52dc6f9d4e60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ceb56e639749ac30fb4dca0b260e6e00') in 0.002203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Meshes/Anims_Inplace/Soldier@Rifle_Aiming_Walk_F.FBX
+  artifactKey: Guid(4e071168e650c5d47a56efe85c09844a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Meshes/Anims_Inplace/Soldier@Rifle_Aiming_Walk_F.FBX using Guid(4e071168e650c5d47a56efe85c09844a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8f0ae95149c4eace2d0c60ef99dbedf5') in 0.019215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 88
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/SciFi_Space_Soldier/Prefabs/Space_Soldier_A_LOD1.prefab
+  artifactKey: Guid(ee13d518658eb2140a5cf1e59a3de544) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Prefabs/Space_Soldier_A_LOD1.prefab using Guid(ee13d518658eb2140a5cf1e59a3de544) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3621fceb54a5123f7756add6ca6de4a4') in 0.013360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Meshes/Anims_Inplace
+  artifactKey: Guid(165cf9d6e36ddf74283b99a179c2b549) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Meshes/Anims_Inplace using Guid(165cf9d6e36ddf74283b99a179c2b549) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b74509d965fbdad64dcb8adbce77c126') in 0.002518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Meshes/Anims_Actions
+  artifactKey: Guid(cf8d72ca877c6774395355403cdcd23d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Meshes/Anims_Actions using Guid(cf8d72ca877c6774395355403cdcd23d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e7c7ced5f5efd142e19f017ef6cca6a7') in 0.001997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000006 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Materials/M_Soldier_A_Legs.mat
+  artifactKey: Guid(ceaa229ea18542d4fa2b0e4414c91b67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Materials/M_Soldier_A_Legs.mat using Guid(ceaa229ea18542d4fa2b0e4414c91b67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '531e3c880828a0ba7173dcf1e9abb358') in 0.007574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000006 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Weapons/Rifle/HUD
+  artifactKey: Guid(9966b8311e1c58a478445ae8b67da61d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Weapons/Rifle/HUD using Guid(9966b8311e1c58a478445ae8b67da61d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6c9c4e34fe38ae0602ff1739f164ee09') in 0.003044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Weapons/Rifle/Textures/T_Weapon_Rifle_1_E.png
+  artifactKey: Guid(e15efdfa6cbfd86429b408c7921dcb31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Weapons/Rifle/Textures/T_Weapon_Rifle_1_E.png using Guid(e15efdfa6cbfd86429b408c7921dcb31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ab61cd6b012dea9372c50a01ec15e7bc') in 0.010964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Textures/T_SpaceSoldier_Torso_D.tga
+  artifactKey: Guid(461cef00c67e1fc409dbbdaf6ca43347) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Textures/T_SpaceSoldier_Torso_D.tga using Guid(461cef00c67e1fc409dbbdaf6ca43347) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '01fbc617ab29379d5e098848d37c792e') in 0.011640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Weapons/Rifle/Materials/M_Weapon_Rifle_B.mat
+  artifactKey: Guid(811bfde249015f34b96e27887110e9f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Weapons/Rifle/Materials/M_Weapon_Rifle_B.mat using Guid(811bfde249015f34b96e27887110e9f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '390d8241272e7096ba3e2f64aa9cfd4b') in 0.006948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Weapons
+  artifactKey: Guid(938b6f5304968e9479178cf96165745b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Weapons using Guid(938b6f5304968e9479178cf96165745b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd3e3914622d06485dc6ee6a59a7801f0') in 0.001882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Controller&Masks/Soldier_Controller.controller
+  artifactKey: Guid(5d748914d02d2ce4d89d3ba044ed20f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Controller&Masks/Soldier_Controller.controller using Guid(5d748914d02d2ce4d89d3ba044ed20f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9806c1bbc507b65864f4e8446d7644e9') in 0.007398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources
+  artifactKey: Guid(84454d06f7a2c2346af987ae3f36eafa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources using Guid(84454d06f7a2c2346af987ae3f36eafa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd925a8e47c82edec0f3b7f9a2e1de82c') in 0.001830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Materials/M_Soldier_A_Head.mat
+  artifactKey: Guid(568d24ae65d697a4089c4a486b0cc0bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Materials/M_Soldier_A_Head.mat using Guid(568d24ae65d697a4089c4a486b0cc0bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2f8d2103381e2e80e9c3431da7ccf0f9') in 0.009424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000006 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Meshes/Anims_Inplace/Soldier@Rifle_Sprint_F.FBX
+  artifactKey: Guid(cea13e61137d34d438d15ac3a97dfa58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Meshes/Anims_Inplace/Soldier@Rifle_Sprint_F.FBX using Guid(cea13e61137d34d438d15ac3a97dfa58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c00c6f74bf0ed20932d649ef492fd52d') in 0.019351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Textures/T_SpaceSoldier_Torso_E.tga
+  artifactKey: Guid(c027c74c41f9a3f4f9dcd1e76f8f8672) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Textures/T_SpaceSoldier_Torso_E.tga using Guid(c027c74c41f9a3f4f9dcd1e76f8f8672) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '98c16c092610840aa730589a71610490') in 0.012203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/SciFi_Space_Soldier/Prefabs/Space_Soldier_Ragdoll_A.prefab
+  artifactKey: Guid(4045ab46594095b41ad7a0f08cfd554c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Prefabs/Space_Soldier_Ragdoll_A.prefab using Guid(4045ab46594095b41ad7a0f08cfd554c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6b460e2acad70dc9db06caec3d0a46ed') in 0.011060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 187
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Weapons/Rifle/Meshes/Weapon_Rifle_1.FBX
+  artifactKey: Guid(41ddbc89f43ce1149ba4f6f0f8ad75c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Weapons/Rifle/Meshes/Weapon_Rifle_1.FBX using Guid(41ddbc89f43ce1149ba4f6f0f8ad75c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ffefb9a18475e71549a23589099b797d') in 0.011736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Weapons/Rifle/Textures/T_Weapon_Rifle_1_M.png
+  artifactKey: Guid(475e50ad7ef598741bd28265c50dee35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Weapons/Rifle/Textures/T_Weapon_Rifle_1_M.png using Guid(475e50ad7ef598741bd28265c50dee35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0e05e4bc7893021721bab3cf492b8dca') in 0.011066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/SciFi_Space_Soldier/Prefabs/Space_Soldier_A.prefab
+  artifactKey: Guid(7aa6f6434be94e44583bd055d3a42eee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Prefabs/Space_Soldier_A.prefab using Guid(7aa6f6434be94e44583bd055d3a42eee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a2b83e6a9fd4ad6d55d81f0661c4c281') in 0.009227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 73
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Textures/T_SpaceSoldier_Legs_CM.tga
+  artifactKey: Guid(9f5f5179be622b241b9c2d46c62754bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Textures/T_SpaceSoldier_Legs_CM.tga using Guid(9f5f5179be622b241b9c2d46c62754bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c449d3c4ea1b3bfcd09fa23d03058ed2') in 0.012448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Materials/M_Soldier_B_Head.mat
+  artifactKey: Guid(e0244693d40429a4eb63b69972a21dcd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Materials/M_Soldier_B_Head.mat using Guid(e0244693d40429a4eb63b69972a21dcd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '30f3baf3171b1b31ba366b921df8f20e') in 0.010571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Weapons/Rifle/Meshes
+  artifactKey: Guid(55f02cf5fff02ff4d9d813099eaf5400) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Weapons/Rifle/Meshes using Guid(55f02cf5fff02ff4d9d813099eaf5400) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9562a3f2f33f36ddc2c9ab8d4ef915ca') in 0.001895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Weapons/Rifle/Textures/T_Weapon_Rifle_1_N.png
+  artifactKey: Guid(1952967d289bf04498c1dc74a5a8fd66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Weapons/Rifle/Textures/T_Weapon_Rifle_1_N.png using Guid(1952967d289bf04498c1dc74a5a8fd66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '617c988a2acf260c09f2d2ff39524f0b') in 0.013293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Materials/M_Soldier_C_Torso.mat
+  artifactKey: Guid(6c647f2f3fc22124884c94e33905e92e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SciFi_Space_Soldier/Resources/Space_Soldier/Materials/M_Soldier_C_Torso.mat using Guid(6c647f2f3fc22124884c94e33905e92e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e6086b71811374d9e1fb103bb0549425') in 0.010738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 17.347131 seconds.
+  path: Assets/SciFi_Space_Soldier/Prefabs/Space_Soldier_A_LOD1.prefab
+  artifactKey: Guid(ee13d518658eb2140a5cf1e59a3de544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi_Space_Soldier/Prefabs/Space_Soldier_A_LOD1.prefab using Guid(ee13d518658eb2140a5cf1e59a3de544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cea101dab1e3db0c4fd22498d198179e') in 0.235648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 95
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
