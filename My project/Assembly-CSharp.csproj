@@ -60,17 +60,17 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.19f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Laser.cs" />
-    <Compile Include="Assets\Spin.cs" />
-    <Compile Include="Assets\MouseLook.cs" />
-    <Compile Include="Assets\ReactiveTarget.cs" />
-    <Compile Include="Assets\SceneController.cs" />
-    <Compile Include="Assets\KillCounter.cs" />
-    <Compile Include="Assets\RayShooter.cs" />
-    <Compile Include="Assets\Fireball.cs" />
-    <Compile Include="Assets\PlayerCharacter.cs" />
-    <Compile Include="Assets\WanderingAI.cs" />
-    <Compile Include="Assets\FPSInput.cs" />
+    <Compile Include="Assets\Scripts\ReactiveTarget.cs" />
+    <Compile Include="Assets\Scripts\PlayerCharacter.cs" />
+    <Compile Include="Assets\Scripts\KillCounter.cs" />
+    <Compile Include="Assets\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\Scripts\Laser.cs" />
+    <Compile Include="Assets\Scripts\SceneController.cs" />
+    <Compile Include="Assets\Scripts\Spin.cs" />
+    <Compile Include="Assets\Scripts\FPSInput.cs" />
+    <Compile Include="Assets\Scripts\RayShooter.cs" />
+    <Compile Include="Assets\Scripts\Fireball.cs" />
+    <Compile Include="Assets\Scripts\WanderingAI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
