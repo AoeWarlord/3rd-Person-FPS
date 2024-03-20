@@ -7,6 +7,7 @@ public class RayShooter : MonoBehaviour
     public GameObject laserPrefab;
     public Transform laserSpawn;
     public float laserVelocity = 150;
+    KillCounter killCounterScript;
 
     // Private variable that has a reference to the camera
     private Camera cam;
@@ -17,6 +18,7 @@ public class RayShooter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        killCounterScript = GameObject.Find("KCO").GetComponent<KillCounter>();
         //Use GetComponent to get a reference to the Camera
         cam = GetComponent<Camera>();
 
@@ -51,6 +53,7 @@ public class RayShooter : MonoBehaviour
                     if (target != null)
                     {
                         target.ReactToHit();
+                        killCounterScript.AddKill();
                     }
 
                 }
