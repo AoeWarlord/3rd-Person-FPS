@@ -63,7 +63,7 @@ public class RayShooter : MonoBehaviour
     }
 
     // edit here potentially make smaller
-    private void OnGUI()
+/*    private void OnGUI()
     {
         //font size
         int size = 12;
@@ -75,5 +75,6 @@ public class RayShooter : MonoBehaviour
         //Draw the crosshairs as text
         GUI.Label(new Rect(posX, posY, size, size), "*");
     }
+*/
 }
 
