@@ -361,6 +361,7 @@
 "Assets/Scripts/PlayerCharacter.cs"
 "Assets/Scripts/RayShooter.cs"
 "Assets/Scripts/ReactiveTarget.cs"
+"Assets/Scripts/RestartButton.cs"
 "Assets/Scripts/SceneController.cs"
 "Assets/Scripts/Spin.cs"
 "Assets/Scripts/WanderingAI.cs"

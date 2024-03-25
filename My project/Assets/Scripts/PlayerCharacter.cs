@@ -43,6 +43,11 @@ public class PlayerCharacter : MonoBehaviour
     void Update()
     {
         ShowHP();
+        if (notDead == false)
+        {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
     }
 
 

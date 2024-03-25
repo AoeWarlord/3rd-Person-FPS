@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ReactiveTarget.cs" />
+    <Compile Include="Assets\Scripts\RestartButton.cs" />
     <Compile Include="Assets\Scripts\PlayerCharacter.cs" />
     <Compile Include="Assets\Scripts\KillCounter.cs" />
     <Compile Include="Assets\Scripts\MouseLook.cs" />

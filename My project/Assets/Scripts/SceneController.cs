@@ -30,7 +30,7 @@ public class SceneController : MonoBehaviour
         if (enemy == null)
         {
             enemy = Instantiate(enemyPrefab) as GameObject;
-            enemy.transform.position = new Vector3(10, 1, 11);
+            enemy.transform.position = new Vector3(10, 1, 11); //See if we can change y to 1.66 to make enemy "fly"
             float angle = Random.Range(0, 360);
             enemy.transform.Rotate(0, angle, 0);
         }
