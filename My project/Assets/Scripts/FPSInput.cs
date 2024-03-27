@@ -59,15 +59,6 @@ public class FPSInput : MonoBehaviour
 
             movement.y += gravity * Time.deltaTime;
 
-            /*if(lastPosition != gameObject.transform.position && isGrounded == true)
-            {
-                isMoving = true;
-            }
-            else
-            {
-                isMoving = false;
-            }*/
-
             charController.Move(movement);
         }
     }

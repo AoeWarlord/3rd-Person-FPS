@@ -3531,6 +3531,7 @@ GameObject:
   - component: {fileID: 1613725941}
   - component: {fileID: 1613725940}
   - component: {fileID: 1613725939}
+  - component: {fileID: 1613725942}
   m_Layer: 5
   m_Name: RestartButton
   m_TagString: Untagged
@@ -3652,6 +3653,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1613725937}
   m_CullTransparentMesh: 1
+--- !u!114 &1613725942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613725937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f5791d402cd508448abd833a3523ab0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1619141933
 GameObject:
   m_ObjectHideFlags: 0
@@ -4785,7 +4798,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3379666261290076777, guid: 06945b17f77e09e4da60e71194287162, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.3
+      value: 13.41
       objectReference: {fileID: 0}
     - target: {fileID: 3379666261290076777, guid: 06945b17f77e09e4da60e71194287162, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4793,7 +4806,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3379666261290076777, guid: 06945b17f77e09e4da60e71194287162, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 9.54
+      value: -13.19
       objectReference: {fileID: 0}
     - target: {fileID: 3379666261290076777, guid: 06945b17f77e09e4da60e71194287162, type: 3}
       propertyPath: m_LocalRotation.w
