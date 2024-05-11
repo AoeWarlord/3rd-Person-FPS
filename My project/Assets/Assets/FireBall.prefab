@@ -119,6 +119,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: daa3b49bf87efbf4496704ac646b1ad1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soundSource: {fileID: 0}
+  hitHurtSound: {fileID: 8300000, guid: fc36aabef72987141843378a4877b457, type: 3}
   speed: 10
   damage: 1
 --- !u!54 &-1568134790499038288

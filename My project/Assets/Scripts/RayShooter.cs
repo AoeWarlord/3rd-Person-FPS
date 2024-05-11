@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class RayShooter : MonoBehaviour
 {
+    [SerializeField] AudioSource soundSource;
+    [SerializeField] AudioClip hitEnemySound;
+    [SerializeField] AudioClip hitWallSound;
+    [SerializeField] AudioClip deathSound;
+
     public GameObject laserPrefab;
     public Transform laserSpawn;
     public float laserVelocity = 150;
@@ -13,7 +18,7 @@ public class RayShooter : MonoBehaviour
     private Camera cam;
 
     private bool allowedToShoot = true;
-
+    private int oof = 1;
     private PlayerCharacter stillAlive;
     // Start is called before the first frame update
     void Start()
@@ -50,15 +55,25 @@ public class RayShooter : MonoBehaviour
                 {
                     GameObject hitObject = hit.transform.gameObject;
                     ReactiveTarget target = hitObject.GetComponent<ReactiveTarget>();
+                    soundSource.PlayOneShot(hitWallSound);
                     if (target != null)
                     {
                         target.ReactToHit();
                         killCounterScript.AddKill();
+                        soundSource.PlayOneShot(hitEnemySound);
                     }
 
                 }
 
                 }
+        }
+        else
+        {
+            if(oof > 0)
+            {
+                --oof;
+                soundSource.PlayOneShot(deathSound);
+            }
         }
     }
 

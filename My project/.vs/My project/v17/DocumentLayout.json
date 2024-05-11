@@ -1,0 +1,246 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\david\\My project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\david\\My project\\assets\\scripts\\killcounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\killcounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|c:\\users\\david\\my project\\assets\\scripts\\mouselook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mouselook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\david\\My project\\assets\\scripts\\playercharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\david\\My project\\assets\\scripts\\dooropendevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dooropendevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\david\\My project\\assets\\scripts\\devicetrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\devicetrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\david\\My project\\assets\\scripts\\rayshooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rayshooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\david\\My project\\assets\\scripts\\fireball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fireball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\david\\My project\\assets\\scripts\\wanderingai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wanderingai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\david\\My project\\assets\\scripts\\reactivetarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\reactivetarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\david\\My project\\assets\\scripts\\scenecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\david\\My project\\assets\\scripts\\fpsinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fpsinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\david\\My project\\assets\\scripts\\hideandreveal button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hideandreveal button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\david\\My project\\assets\\scripts\\restartbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\restartbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\david\\My project\\assets\\scripts\\laser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\laser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KillCounter.cs",
+              "DocumentMoniker": "C:\\Users\\david\\My project\\Assets\\Scripts\\KillCounter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\KillCounter.cs",
+              "ToolTip": "C:\\Users\\david\\My project\\Assets\\Scripts\\KillCounter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\KillCounter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T17:20:26.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RestartButton.cs",
+              "DocumentMoniker": "C:\\Users\\david\\My project\\Assets\\Scripts\\RestartButton.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RestartButton.cs",
+              "ToolTip": "C:\\Users\\david\\My project\\Assets\\Scripts\\RestartButton.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RestartButton.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJUSURBVDhP3ZC/TxpxGMbf73GAeIhXKz9SbWMQ\u002B8NcMMWgQtpGBwZjhybWGhs2p66t1SYdutXO7aTtaOLQgYmBkgh0aqjBhGgjlCiHSOU8hEPkDg7uete0Y/\u002BA9jO8eYfnGT4P/Pto1BORI/jC3AJpnDB2NZ1NwnrfSow8GtH7Xf5GNBpFnjnPJeY2Y/A/9Ytrr9d6Tm6ddJhdZpGO0RImyzKG7WNjHM8FGlgjSXQRSRNuSpKI/Fh0FnsP2cMhXuQDOkkXoI/osVK99FloCYE8nh\u002BDV4Dhob0QeVQ\u002BWtnOb7ttRpvWO\u002B7d1\u002BP6Vl2ss0OXhwxNsflsK7NFKRnIsJllwGAgX81bZUl\u002B7ADHLh5OhfFas3YNRzhM35z\u002BqkGaFzLIVVZgeXunvaj8G\u002B6r7nspJgVaTLsxS83eLXCF0/PG\u002Bac\u002B6Kvj4YMw2DptMHpl9EAQhUUf5UshhCR1G1WvwBaYbkO3qNPokMVoYXqJXkmv1YsYwioxiEmYGmxLbQAErUw1U/pTVuE4jqy1au83E5uDaTZtj2QiH5aCS2SaSTva0H4\u002BbBomca/VCwISIFvJdpTrZSq0GzpTy0yF4XfKO3S/tn/Fd923wl6wSNFbWxxfXF7/ss5luew7c9VcxadcU63iaTEXz8XvtOX22\u002BxZVlRGhAvxIp34kXgy6ZmM585zy2QHCTODMzRloWjlF4WGkIu9jLWQ6hncDU4cl4/fRL5HbigLg\u002BIMAz0DeybZNL86v3r6y\u002BcvYKozQRFxsod8ABI4K/WKkxd4pyALD3XfdKXfuf8XgJ/U5B69phRCXgAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-05-11T17:20:26.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HideAndReveal Button.cs",
+              "DocumentMoniker": "C:\\Users\\david\\My project\\Assets\\Scripts\\HideAndReveal Button.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HideAndReveal Button.cs",
+              "ToolTip": "C:\\Users\\david\\My project\\Assets\\Scripts\\HideAndReveal Button.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HideAndReveal Button.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAQAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJUSURBVDhP3ZC/TxpxGMbf73GAeIhXKz9SbWMQ\u002B8NcMMWgQtpGBwZjhybWGhs2p66t1SYdutXO7aTtaOLQgYmBkgh0aqjBhGgjlCiHSOU8hEPkDg7uete0Y/\u002BA9jO8eYfnGT4P/Pto1BORI/jC3AJpnDB2NZ1NwnrfSow8GtH7Xf5GNBpFnjnPJeY2Y/A/9Ytrr9d6Tm6ddJhdZpGO0RImyzKG7WNjHM8FGlgjSXQRSRNuSpKI/Fh0FnsP2cMhXuQDOkkXoI/osVK99FloCYE8nh\u002BDV4Dhob0QeVQ\u002BWtnOb7ttRpvWO\u002B7d1\u002BP6Vl2ss0OXhwxNsflsK7NFKRnIsJllwGAgX81bZUl\u002B7ADHLh5OhfFas3YNRzhM35z\u002BqkGaFzLIVVZgeXunvaj8G\u002B6r7nspJgVaTLsxS83eLXCF0/PG\u002Bac\u002B6Kvj4YMw2DptMHpl9EAQhUUf5UshhCR1G1WvwBaYbkO3qNPokMVoYXqJXkmv1YsYwioxiEmYGmxLbQAErUw1U/pTVuE4jqy1au83E5uDaTZtj2QiH5aCS2SaSTva0H4\u002BbBomca/VCwISIFvJdpTrZSq0GzpTy0yF4XfKO3S/tn/Fd923wl6wSNFbWxxfXF7/ss5luew7c9VcxadcU63iaTEXz8XvtOX22\u002BxZVlRGhAvxIp34kXgy6ZmM585zy2QHCTODMzRloWjlF4WGkIu9jLWQ6hncDU4cl4/fRL5HbigLg\u002BIMAz0DeybZNL86v3r6y\u002BcvYKozQRFxsod8ABI4K/WKkxd4pyALD3XfdKXfuf8XgJ/U5B69phRCXgAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-05-11T17:20:26.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RayShooter.cs",
+              "DocumentMoniker": "C:\\Users\\david\\My project\\Assets\\Scripts\\RayShooter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RayShooter.cs",
+              "ToolTip": "C:\\Users\\david\\My project\\Assets\\Scripts\\RayShooter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RayShooter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T17:20:26.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FPSInput.cs",
+              "DocumentMoniker": "C:\\Users\\david\\My project\\Assets\\Scripts\\FPSInput.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FPSInput.cs",
+              "ToolTip": "C:\\Users\\david\\My project\\Assets\\Scripts\\FPSInput.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FPSInput.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T17:20:26.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerCharacter.cs",
+              "DocumentMoniker": "C:\\Users\\david\\My project\\Assets\\Scripts\\PlayerCharacter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerCharacter.cs",
+              "ToolTip": "C:\\Users\\david\\My project\\Assets\\Scripts\\PlayerCharacter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerCharacter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T17:20:26.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ReactiveTarget.cs",
+              "DocumentMoniker": "C:\\Users\\david\\My project\\Assets\\Scripts\\ReactiveTarget.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ReactiveTarget.cs",
+              "ToolTip": "C:\\Users\\david\\My project\\Assets\\Scripts\\ReactiveTarget.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ReactiveTarget.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T17:20:26.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SceneController.cs",
+              "DocumentMoniker": "C:\\Users\\david\\My project\\Assets\\Scripts\\SceneController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SceneController.cs",
+              "ToolTip": "C:\\Users\\david\\My project\\Assets\\Scripts\\SceneController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SceneController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwCAAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T17:20:26.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Fireball.cs",
+              "DocumentMoniker": "C:\\Users\\david\\My project\\Assets\\Scripts\\Fireball.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Fireball.cs",
+              "ToolTip": "C:\\Users\\david\\My project\\Assets\\Scripts\\Fireball.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Fireball.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T17:20:26.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WanderingAI.cs",
+              "DocumentMoniker": "C:\\Users\\david\\My project\\Assets\\Scripts\\WanderingAI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WanderingAI.cs",
+              "ToolTip": "C:\\Users\\david\\My project\\Assets\\Scripts\\WanderingAI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WanderingAI.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowDMAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T17:20:26.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MouseLook.cs",
+              "DocumentMoniker": "C:\\Users\\david\\My project\\Assets\\Scripts\\MouseLook.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MouseLook.cs",
+              "ToolTip": "C:\\Users\\david\\My project\\Assets\\Scripts\\MouseLook.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MouseLook.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T17:20:26.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Laser.cs",
+              "DocumentMoniker": "C:\\Users\\david\\My project\\Assets\\Scripts\\Laser.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Laser.cs",
+              "ToolTip": "C:\\Users\\david\\My project\\Assets\\Scripts\\Laser.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Laser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA2AAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJUSURBVDhP3ZC/TxpxGMbf73GAeIhXKz9SbWMQ\u002B8NcMMWgQtpGBwZjhybWGhs2p66t1SYdutXO7aTtaOLQgYmBkgh0aqjBhGgjlCiHSOU8hEPkDg7uete0Y/\u002BA9jO8eYfnGT4P/Pto1BORI/jC3AJpnDB2NZ1NwnrfSow8GtH7Xf5GNBpFnjnPJeY2Y/A/9Ytrr9d6Tm6ddJhdZpGO0RImyzKG7WNjHM8FGlgjSXQRSRNuSpKI/Fh0FnsP2cMhXuQDOkkXoI/osVK99FloCYE8nh\u002BDV4Dhob0QeVQ\u002BWtnOb7ttRpvWO\u002B7d1\u002BP6Vl2ss0OXhwxNsflsK7NFKRnIsJllwGAgX81bZUl\u002B7ADHLh5OhfFas3YNRzhM35z\u002BqkGaFzLIVVZgeXunvaj8G\u002B6r7nspJgVaTLsxS83eLXCF0/PG\u002Bac\u002B6Kvj4YMw2DptMHpl9EAQhUUf5UshhCR1G1WvwBaYbkO3qNPokMVoYXqJXkmv1YsYwioxiEmYGmxLbQAErUw1U/pTVuE4jqy1au83E5uDaTZtj2QiH5aCS2SaSTva0H4\u002BbBomca/VCwISIFvJdpTrZSq0GzpTy0yF4XfKO3S/tn/Fd923wl6wSNFbWxxfXF7/ss5luew7c9VcxadcU63iaTEXz8XvtOX22\u002BxZVlRGhAvxIp34kXgy6ZmM585zy2QHCTODMzRloWjlF4WGkIu9jLWQ6hncDU4cl4/fRL5HbigLg\u002BIMAz0DeybZNL86v3r6y\u002BcvYKozQRFxsod8ABI4K/WKkxd4pyALD3XfdKXfuf8XgJ/U5B69phRCXgAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-05-11T17:20:25.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DeviceTrigger.cs",
+              "DocumentMoniker": "C:\\Users\\david\\My project\\Assets\\Scripts\\DeviceTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DeviceTrigger.cs",
+              "ToolTip": "C:\\Users\\david\\My project\\Assets\\Scripts\\DeviceTrigger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DeviceTrigger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T19:23:16.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DoorOpenDevice.cs",
+              "DocumentMoniker": "C:\\Users\\david\\My project\\Assets\\Scripts\\DoorOpenDevice.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DoorOpenDevice.cs",
+              "ToolTip": "C:\\Users\\david\\My project\\Assets\\Scripts\\DoorOpenDevice.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DoorOpenDevice.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T19:27:18.258Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
