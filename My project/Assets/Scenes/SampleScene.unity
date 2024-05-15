@@ -1852,7 +1852,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 2d43fde6cea8e5a4aa7e09fd18e63072, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 06cfd2cf6b212ec4cb8e8be4da14e45b, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -2637,7 +2637,7 @@ Transform:
   m_GameObject: {fileID: 734344886}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11, y: 4.89, z: -7.71}
+  m_LocalPosition: {x: 9.07, y: 3.811, z: -8.72}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2656,7 +2656,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 0.6588893, g: 0.6462264, b: 1, a: 1}
   m_Intensity: 2.3
-  m_Range: 20
+  m_Range: 25.8
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
