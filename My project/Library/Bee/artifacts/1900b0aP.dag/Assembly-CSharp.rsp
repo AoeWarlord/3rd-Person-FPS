@@ -320,6 +320,8 @@
 "Assets/Scripts/ReactiveTarget.cs"
 "Assets/Scripts/RestartButton.cs"
 "Assets/Scripts/SceneController.cs"
+"Assets/Scripts/SceneController2.cs"
+"Assets/Scripts/SceneController3.cs"
 "Assets/Scripts/Spin.cs"
 "Assets/Scripts/WanderingAI.cs"
 -langversion:9.0
