@@ -14,7 +14,11 @@ ScriptsOnlyBuild:
     - ReactiveTarget
     - RestartButton
     - SceneController
+    - SceneController2
+    - SceneController3
     - WanderingAI
+    Unity.PlasticSCM.Editor.dll:
+    - Unity.PlasticSCM.Editor.PlasticWindow
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro:
@@ -180,6 +184,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 7534}
     - Class: 114
       Script: {instanceID: 7576}
+    - Class: 114
+      Script: {instanceID: 44722}
+    - Class: 114
+      Script: {instanceID: 47150}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1119,6 +1127,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 18cafbe95c9beb1d62f55f693e572cbe
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SceneController2
+  - hash:
+      serializedVersion: 2
+      Hash: 186aec90df6bc61285ee1e6fe43fd8a7
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SceneController3
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
