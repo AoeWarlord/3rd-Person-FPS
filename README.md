@@ -1,4 +1,4 @@
 This is a First Person Shooter(FPS) game that comes with complete forward, back, left, right, and jump control. The game follows a space theme where you the player go around shooting flying "borg" cubes that will launch an attack at you when detected. 
 You also shoot a laser round out of your gun which will destroy the enemy cube when hit and increase your score in the top left. You start off with 5 hp and when your hp hits 0 you lose and can hit the restart button at the bottom of the screen which also resets
 your score. The game contains 3 enemy spawnpoints that will respawn an enemy from the original position that they spawned at. There is also interactible objects in the form of doors which will automatically disappear when you get close to them or fire at them 
-allowing you another path through the map.
+allowing you another path through the map. The background music is from The Riftbreaker (The RiftBreaker Main Theme). All other sounds come from Creative Common 0 sources.
